@@ -1,0 +1,61 @@
+.projects {
+    background: #f4f4f4;
+    height: 100vh;
+}
+
+.projects .projects-content {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.projects .projects-content h2 {
+    margin-top: 3rem;
+    color:#333 !important;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.projects .projects-content h2 .projects-title-alt-color {
+    color: #ff9800;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    list-style: none;
+    padding: 1rem;
+    margin: 5rem;
+}
+
+.item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+.item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.item i {
+    background: #ff9800;
+    padding: 1rem;
+    border-radius: 40%;
+    margin-bottom: 1rem;
+}
+
+.item .icon-link:hover {
+    color: #fff;
+}
+
+.item p {
+    margin-top: 1.5rem;
+    text-align: start;
+}
