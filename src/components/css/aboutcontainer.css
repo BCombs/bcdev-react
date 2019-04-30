@@ -1,0 +1,17 @@
+.about-container {
+    display: flex;
+    overflow-y: scroll;
+}
+
+.image-holder {
+    background: #333 url('../../img/aboutimg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    flex: 1;
+}
+
+.about-content {
+    background-color: #f4f4f4;
+    height: 100vh;
+    flex: 1;
+    overflow-y: scroll;
+}

@@ -1,0 +1,23 @@
+.about {
+    background: #333;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.about .about-title {
+    margin-top: 3rem;
+}
+
+.about .about-title span {
+    color: #ff9800;
+}
+
+.about p {
+    padding: 2rem;
+    line-height: 1.1;
+    font-size: 1.2em;
+}
