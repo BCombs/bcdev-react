@@ -38,7 +38,7 @@ const About = props => {
         the most. It is always changing. I enjoy constantly evolving to stay
         current. Outside of development I have many interests. I play jazz
         guitar and enjoy studying music theory. I also read non-fiction books,
-        play video games, and watch documentaries. <br />
+        play video games, and watch documentaries.
       </p>
     </div>
   );

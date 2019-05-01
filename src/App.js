@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Landing from './components/Landing';
 import Projects from './components/Projects';
 import AboutContainer from './components/AboutContainer';
+import ContactContainer from './components/ContactContainer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       />
       <Route exact path="/projects" render={() => <Projects />} />
       <Route exact path="/about" render={() => <AboutContainer />} />
+      <Route exact path="/contact" render={() => <ContactContainer />} />
     </div>
   );
 }
