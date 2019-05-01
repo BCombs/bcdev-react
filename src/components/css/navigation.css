@@ -10,13 +10,13 @@
     font-size: 1.3em;
 }
 
-.navigation ul li a {
+.nav-link {
     color: #fff;
     text-decoration: none;
     padding: 0.75rem;
 }
 
-.navigation ul li a:hover {
+.nav-link:hover {
     background: #ff9800;
     border-radius: 5px;
 }
