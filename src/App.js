@@ -11,18 +11,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Route
-        exact
-        path="/"
-        render={() => (
-          <div>
-            <Landing />
-          </div>
-        )}
-      />
-      <Route exact path="/projects" render={() => <Projects />} />
-      <Route exact path="/about" render={() => <AboutContainer />} />
-      <Route exact path="/contact" render={() => <ContactContainer />} />
+      <Route exact path="/" component={Landing} />
+      <Route exact path="/projects" component={Projects} />
+      <Route exact path="/about" component={AboutContainer} />
+      <Route exact path="/contact" component={ContactContainer} />
     </div>
   );
 }
