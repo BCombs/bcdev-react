@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/landing.css';
+import { Link } from 'react-router-dom';
 
 const Landing = props => {
   return (
@@ -10,9 +11,9 @@ const Landing = props => {
           I love creating, problem soliving, and learning. Software development
           is an art form with an ever changing canvas.
         </p>
-        <a className="btn" href="/projects">
+        <Link className="btn" to="/projects">
           My Projects
-        </a>
+        </Link>
       </div>
     </section>
   );
